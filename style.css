@@ -7,18 +7,45 @@
   --apricot: #ffd6baff;
 }
 body {
+  display: flex;
   background-color: var(--cultured);
   font-family: "Permanent Marker", cursive;
   color: var(--powder-blue);
 }
+
 h1 {
   color: var(--skobeloff);
 }
 
-.container {
-  width: 50%;
+img {
+  width: 100%;
 }
 
-img {
-  width: 50vw;
+#info img {
+  border-radius: 50%;
+}
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./sunset.jpeg);
+  background-size: cover;
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 50%;
+  }
+
+  #info {
+    width: 40%;
+    background-image: none;
+  }
+
+  #splash {
+    width: 60%;
+    height: 100vh;
+    background-image: url(./sunset.jpeg);
+    background-size: cover;
+  }
 }
