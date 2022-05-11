@@ -1,7 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+* {
+  --morning-blue: #89b0aeff;
+  --powder-blue: #bee3dbff;
+  --skobeloff: #156464ff;
+  --cultured: #faf9f9ff;
+  --apricot: #ffd6baff;
+}
 body {
-  background-color: rgb(250, 240, 226);
+  background-color: var(--cultured);
+  font-family: "Permanent Marker", cursive;
+  color: var(--powder-blue);
 }
 h1 {
-  color: rgb(21, 100, 100);
-  font-family: sans-serif;
+  color: var(--skobeloff);
+}
+
+.container {
+  width: 50%;
+}
+
+img {
+  width: 50vw;
 }
