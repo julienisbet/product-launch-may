@@ -31,6 +31,17 @@ img {
   background-image: url(./sunset.jpeg);
   background-size: cover;
 }
+button {
+  width: 100px;
+  color: var(--morning-blue);
+  border: 2px solid var(--morning-blue);
+  background-color: var(--apricot);
+  outline: 0;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
 
 @media (min-width: 600px) {
   .container {
@@ -48,4 +59,8 @@ img {
     background-image: url(./sunset.jpeg);
     background-size: cover;
   }
+}
+
+.rotate {
+  transform: rotate(0.5turn);
 }
